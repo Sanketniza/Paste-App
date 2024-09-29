@@ -23,7 +23,7 @@ const Paste = () => {
     <div className="w-full h-full py-10 max-w-[1200px] mx-auto px-5 lg:px-0">
       <div className="flex flex-col gap-y-3">
         {/* Search */}
-        <div className="w-full flex gap-3 px-4 py-2  rounded-[0.3rem] border border-[rgba(128,121,121,0.3)]  mt-6">
+        <div className="text-white w-full flex gap-3 px-4 py-2  rounded-[0.3rem] border border-[rgba(128,121,121,0.3)]  mt-6">
           <input
             type="search"
             placeholder="Search paste here..."
@@ -43,7 +43,7 @@ const Paste = () => {
               filteredPastes.map((paste) => (
                 <div
                   key={paste?._id}
-                  className="text-yellow-500 border border-[rgba(128,121,121,0.3)] w-full gap-y-6 justify-between flex flex-col sm:flex-row p-4 rounded-[0.3rem]"
+                  className="text-amber-600	 border border-[rgba(128,121,121,0.3)] w-full gap-y-6 justify-between flex flex-col sm:flex-row p-4 rounded-[0.3rem]"
                 >
                   {/* heading and Description */}
                   <div className="w-[50%] flex flex-col space-y-3">
@@ -93,7 +93,7 @@ const Paste = () => {
                         }}
                       >
                         <Copy
-                          className="text-black group-hover:text-green-500"
+                          className="text-red-500 group-hover:text-green-500"
                           size={20}
                         />
                       </button>
@@ -107,7 +107,7 @@ const Paste = () => {
                 </div>
               ))
             ) : (
-              <div className="text-2xl text-center w-full text-chileanFire-500">
+              <div className="text-green-400  text-2xl text-center w-full text-chileanFire-500">
                 No Data Found
               </div>
             )}
