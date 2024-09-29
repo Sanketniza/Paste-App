@@ -17,6 +17,7 @@ const ViewPaste = () => {
   return (
     <div className=" w-full h-full py-10 max-w-[1200px] mx-auto px-5 lg:px-0">
       <div className="text-emerald-300	 flex flex-col gap-y-5 items-start">
+        
         <input
           type="text"
           placeholder="Title"
