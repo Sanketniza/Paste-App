@@ -1,6 +1,12 @@
 Here’s a complete rewrite of the `README.md` file for your React + Vite project with Tailwind CSS installation and details about the packages used:
 
 ---
+<h1> live Preview of Paste App </h1>
+<h4> Copy the below link and past it in any browser to run</h4>
+<p> pasteappbysanket.netlify.app </p>
+<hr>
+<h3> Click here to direct access </h3>
+<a href="pasteappbysanket.netlify.app"> Paste App</a>
 
 # React + Vite + TailwindCSS Template
 
